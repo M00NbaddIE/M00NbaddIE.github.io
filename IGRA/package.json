@@ -1,0 +1,25 @@
+{
+  "name": "platformer",
+  "main": "main.js",
+  "productName": "Platformer",
+  "description": "Platformer",
+  "author": "",
+  "version": "1.2.1",
+  "dependencies": {
+    
+  },
+  "scripts": {
+    "start": "electron main.js",
+    "build": "electron-builder"
+  },
+  "devDependencies": {
+    "electron": "8.2.5",
+    "electron-builder": "22.9.1"
+  },
+  "build": {
+    "appId": "com.example.platformer",
+    "directories": {
+      "buildResources": "buildResources"
+    }
+  }
+}
